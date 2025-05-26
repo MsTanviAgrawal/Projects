@@ -69,14 +69,11 @@ button:focus-visible {
 body{
   font-family: 'Times New Roman', Times, serif;
  }
-.Heading-side
- {
+.Heading-side{
   text-align: center;
   margin-top: 0%;
 }
-
-.photo-side
-{
+.photo-side{
   width: 113px;
   height: 150px;
   border: 2px solid black;
