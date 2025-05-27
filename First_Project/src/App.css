@@ -1,46 +1,84 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+.Heading-side{
   text-align: center;
+  margin-top: 0%;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.photo-side{
+  width: 113px;
+  height: 150px;
+  border: 2px solid black;
+  display: flex;
+  position: absolute;
+  top: 5px;         
+  right: 20px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.summary{
+  h3{
+    color: rgb(96, 96, 249);
   }
-  to {
-    transform: rotate(360deg);
+  text-align: justify;
+}
+.skills{
+  h3{
+    color: rgb(96, 96, 249);
+  }
+  text-align: justify;
+}
+.education{
+  h3{
+    color: rgb(96, 96, 249);
+  }
+  p{
+    margin: 0%;
+  }
+  .edu-entry{
+    display: flex;
+    justify-content: space-between;
+  }
+  #date{
+    text-align: right;
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.trainings{
+  h3{
+    color: rgb(96, 96, 249);
+  }
+  p{
+    margin: 0%;
+  }
+  .training-entry{
+    display: flex;
+    justify-content: space-between;
+  }
+  #date{
+    text-align: right;
   }
 }
-
-.card {
-  padding: 2em;
+.projects{
+  h3{
+    color: rgb(96, 96, 249);
+  }
+  p{
+    margin: 0%;
+  }
 }
+.certification{
+  h3{
+    color: rgb(96, 96, 249);
+  }
+  p{
+    margin: 0%;
+  }
+}
+.responsibility{
+  h3{
+    color: rgb(96, 96, 249);
+  }
+  p{
+    margin: 0%;
+  }
 
-.read-the-docs {
-  color: #888;
-} */
-
+}
 
 
 
