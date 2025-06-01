@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.register-container {
+  width: 500px;
+  height: auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgb(10, 10, 10);
+}
+
+.register-container h2 {
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.register-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #2f14f7;
+}
+
+.register-container input[type="email"],
+.register-container input[type="text"],
+.register-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 2px solid #0b0b0b;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.register-container .radio-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+.register-container .checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.register-container button {
+  width: 48%;
+  padding: 10px;
+  font-size: 15px;
+  margin: 5px 1%;
+  border: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-container .clear-btn {
+  background-color: #ccc;
+  color: black;
+}
+
+.register-container .register-btn {
+  background-color: #2f14f7;
+  color: white;
+}
+
+.register-container .footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.register-container .footer button {
+  background: none;
+  border: none;
+  color: #2f14f7;
+  cursor: pointer;
+  text-decoration: underline;
+}
